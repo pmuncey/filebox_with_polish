@@ -1,8 +1,11 @@
 /* Additional styles */
 
 body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
   font-family: "Open Sans";
 }
+
 
 /* My standard vertical spacing classes */
 
@@ -80,4 +83,41 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+.navbar-header .navbar-brand {
+  color: blue;
+}
+
+.navbar-header:hover .navbar-brand:hover {
+  color: blue;
+}
+
+.btn-default {
+  color: blue;
+}
+
+.btn-default:hover {
+  color: blue;
+}
+
+.btn.btn-link {
+  color: blue;
+}
+
+.btn.btn-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.btn-primary.btn-block {
+  color: white;
+}
+
+.text-gray {
+  color: gray;
 }
